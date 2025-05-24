@@ -1,0 +1,20 @@
+# path for item data:data_full_withSERPid.json or data/KDD19_with_url.json
+data_path: data/data_full_withSERPid.json
+# name for item data KDD#new
+data_name: new
+# name for model #gpt-4o-2024-11-20 "gpt-3.5-turbo-16k"
+model_name: "gpt-3.5-turbo-16k"
+# generation strategy: reasoning-example
+strategy: listwise-example
+# temperature for LLM
+temperature: 0
+# number of agents
+num_agents: 6
+# maximum number of tokens for search result `
+max_result_token: 10000
+# maximum number of tokens for webpage text content
+max_content_token: 10000
+# list of api keys for LLM API
+api_keys:
+
+save_log_dir:
